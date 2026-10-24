@@ -1,0 +1,596 @@
+*{
+
+ /* this will select all elements */
+   
+   margin: 0;
+   padding: 0;
+  
+} 
+
+
+
+body{
+
+    background-color: black;
+}
+a{
+text-decoration: none;
+color:inherit;
+/* font-weight: bold; */
+}
+
+.main{
+    width: 1170px;
+    background-color: #f1f0ef;
+    font-family: arial;
+    /* height: 1600px; */
+    margin: auto;
+
+}
+/* top cotainer starts */
+.top-contact{
+    height: 40px;
+    width: 100%;
+    background: #343130;
+  
+}
+.left-cont{
+    float: left;   
+    /* border: 1px solid red; */
+}
+.top-icon{
+    float: left;
+    margin-top: 10px;
+    margin-left: 23px;
+    margin-right: 13px;
+
+}
+.top-text{
+    float: right;
+    margin-top: 7px;
+    font-family: verdana;
+    font-size: 20px;
+    color: #ffffff;
+    /* letter-spacing: 1px; */
+}
+
+
+.right-cont{
+    float: right; 
+}
+/* top container ends */
+/* menu container starts */
+.menu{
+       height: 140px;
+       width: 100%;
+       background: white;
+       font-weight: bold;
+       /* border: 2px solid red; */
+
+}
+.logo{
+    float: left;
+    margin-top: 10px;
+    width: 165px;
+    margin-left: 50px;
+}
+.menu-bar{
+    float: right;
+    height: 100%;
+    width: 900px;
+    
+}
+.menu-item{
+    margin-top: 100px;
+    font-size: 20px;
+    margin-left: 63px;
+    float: left;
+    color: #343130;
+}
+/* hovor properties */
+.menu-item:hover{
+    
+    color:#00a8ec; 
+    text-decoration: underline;
+}
+/* menu container ends */
+/* middle container starts */
+.middle-container{
+          height: 735px;
+          width: 1130px;
+          background: #f1f0ef;
+          background-color: white;
+          border-bottom: none;
+          border: 20px solid #f1f0ef;
+}
+/* midell left item */
+.middle-left{
+    width: 260px;
+    height: 750px;
+    float: left;
+}
+.middle-left-item{
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+    /* height: 40px; */
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 3px solid white;
+    background-color: #00a8ec;
+    color: white;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.middle-left-bottom{
+    width: 250px;
+    height: 360px;
+    margin-left: 12px;
+    overflow: hidden;
+    /* border:1px solid #343130; */
+    background-color: white;
+    margin-top: 10px;
+    /* margin-left: 12px; */
+    border-radius: 15px 15px 0 0;
+
+}
+.middle-left-bottom-news{
+    width: 100%;
+    height: 45px;
+    background: #ef9c00;
+    
+    color: white;
+    font-weight: bold;
+    font-size: 20px ;
+    padding-top: 15px ;
+    text-align: center;
+}
+.news-list{
+    border: 1px solid #908c89;
+    border-top: none;
+    padding-left: 10px;
+    list-style: none;
+
+}
+.mid-left-li-img{
+    border-radius: 50%;
+    padding-top: 10px;
+    color: #343130;
+    height: 30px;
+    margin-top: 0px;
+    padding-top: 20px;
+    margin-left: 10px;
+}
+
+/* mioddle right container starts */
+.middle-right{
+    width: 850px;
+    min-height: 750px;
+    float: right;
+}
+.banner-image{
+    width: 830px;
+    height: 440px;
+    background: #f1f0ef;
+    padding-bottom: 15px;
+}
+/* course container */
+.course-container{
+    width: 99%;
+    height: 270px;
+    background: white;
+    padding: 0px 10px 10px 0px;
+}
+/* course box left  */
+.course-text{
+    width: 170px;
+    height: 50px;
+    margin-top: -5px;
+    text-align: center;
+    background: #f1f0ef;
+    font-size: 30px;
+    color: #00a8ec;
+    font-weight: bolder;
+}
+.course-box{
+    margin: 10px;
+    
+}
+/* course box left  */
+.course-box-left{
+    float: left;
+    width: 330px;
+    height: 239px;
+    /* border: 1px solid red; */
+}
+/* course item */
+.course-item{
+      width: 380px;
+      height: 30px;
+      /* border: 1px solid red; */
+      margin-top: 20px;
+}
+.c-icon{
+    width: 34px ;
+    height: 34px;
+    float: left;
+    background: #e6611c;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.c-text{
+    font-size: 18.72px;
+    color:#e6611c ;
+    float: left;
+    font-weight: normal;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+/* cpurse box right */
+.course-box-right{
+    float: right;
+    width:50%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+/* middle right container ends */
+/* middle container ends */
+
+/* how we work srarts  */
+/* work heading */
+.work-heading{
+    padding: 20px 0 15px 0;
+    text-align: center;
+    background: #f1f0ef;
+    font-size: 30px;
+    color: #00a8ec;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+.work-container{
+width: 100%;
+height: 300px;
+}
+.work-img{
+    height: 150px;
+    width: 270px;
+    padding-top: 70px;
+    float: left;
+    margin-left: 18px;
+    font-size: 25px;
+    color: white;
+    background: url(../images/how/HOW-WE-WORK1.png) no-repeat center bottom ,#bc486dcc;
+    background-size: 168px 150px;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 0px 0px 5px black;
+
+    /* border: 1px solid red; */
+}
+/* how we work ends */
+/* footer starts */
+.footer{
+    width: 1170px;
+    height: 360px;
+    /* padding: 25px 0px 0px; */
+
+}
+
+/* quick-line-container */
+/* footer top continer starts */
+.footer-top-container{
+    height: 295px;
+    width: 100%;
+    background:#343130 ;
+    padding-top:25px;
+}
+/* quick-link-container */
+.quick-link-container{
+    height: 10%;     
+    width: 225px;
+    padding-left: 70px;
+    float: left;
+}
+/* footer-h2 */
+.footer-h2{
+    letter-spacing: 1px;
+    color: #efeceb;
+    height: 40px;
+}
+/*  quick links  ul list */
+.quick-list{
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    /* font-weight: normal;
+    font-size: 15px; */
+    color: #efeceb;
+}
+/* footer-top-training starts */
+.footer-top-training{
+    width: 520px;
+    height: 100%;
+    margin-left: 30px;
+    float: left;
+}
+/* footer training's sub container */
+.training-left{
+    margin-left: 10px;
+    width: 48%;
+    height: 100%;
+    float: left;
+}
+/* training-list */
+.training-list{
+    list-style: none;
+    width: 225px;
+    margin-top: 20px;
+    color: white;
+    float: left;
+}
+/* footer-top-training ends */
+.footer-contact-container{
+    width: 300px ;
+    height: 100px;
+    float: left;
+}
+/* contact details */
+#cont-details{
+    margin-top: 15px;
+}
+.conact-list{
+    list-style: none;
+    letter-spacing: 1px;
+    color: #efeceb;
+    width: 200px;
+    margin-top: 20px;
+}
+/* social media icons */
+.social{
+    display: inline;
+    margin: 4px;
+
+}
+/* footer top container ends */
+
+/* copy-right container */
+.copy-right{
+    height: 35px;
+    width: 1170px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+    background: #302d2c;
+}
+/* footer ends */
+
+/* gallery page css stars here */
+ 
+    /* middle right page status is here */
+    .page-status{
+        width: 96%;
+        height: 30px;
+        background-color: white;
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    .page-status h1{
+        width: 300px;
+        height: 30px;
+        float: left;
+        color: #343130;
+    }
+    .page-status h2{
+        float: right;
+        color: #343130;
+        height: 30px;
+    }
+    .page-status h2 i{
+       color: #00a8ec;
+       cursor: pointer;
+    }
+     
+    /* gallery content */
+    .gallery-conent{
+        padding: 10px 30px 0px 30px;
+    }
+    /* gallery-imgages container */
+    .gallery-img{
+        width: 225px;
+        height: 220px;
+        margin-right: 35px;
+        margin-bottom: 50px;
+        float: left;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .gallery-img img{
+        margin-bottom: 0px;
+    }
+    /*  gallery-imgage-title */
+    .gallery-img-title{
+        width: inherit;
+        text-align: center;
+        font-size: 18px;
+        color: #ffffff;
+        border-radius: 0px 0px 5px 5px;
+        background: #343130;
+        padding: 12px 0px 12px 0px;
+    }
+
+
+
+/*  gallery page css ends here*/
+
+
+
+/* about page start */
+
+
+.about-content p{
+    margin-top: 22px;
+    font-size: 18px;
+    word-spacing: 2px;
+}
+
+
+
+/* about page end */
+
+
+           /* courses page's css start */
+           .row1{
+            width: 800px;
+            height: 250px;
+           }
+           .course-1{
+            width: 210px;
+            height: 230px;
+            float: left;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-left: 30px;
+           }
+           .course-1-icon{
+            width: 210px;
+            height: 140px;
+            color: #e6611c;
+            background: #e6611c;
+            padding-top: 20px;
+           }
+           .icon-1{
+            width: 87px;
+            height: 80px;
+            border: 10px solid white;
+            border-radius: 50%;
+            margin: auto;
+            padding-top: 20px;
+            padding-left: 20px;
+           }
+           .c-1{
+            padding: 5px 0px 5px 0px;
+            background: white;
+            height: 50px;
+            width: 208px;
+            font-size: 22px;
+            color: #e6611c;
+            text-align: center;
+            border: 1px solid #e6611c;
+            border-radius: 0px 0px 5px 5px;
+           }
+           /* course 2 */
+           .course-2{
+            width: 210px;
+            height: 230px;
+            float: left;
+            border-radius: 10px;
+            margin-left: 60px;
+            overflow: hidden;
+           }
+           .coures-2-icon{
+            width: 210px;
+            height: 140px;
+            padding-top: 20px ;
+            background: #7bb1e0;
+           }
+           .c-2{
+            padding: 15px 0px 5px 0px;
+           }
+           /* courses page's css end */
+
+/* enquiry page starts */
+form{
+    height: 625px;
+    width: 850px;
+}
+.formrow{
+    width: 500px;
+    margin-bottom:20px ;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.form-lable{
+    width: 100px;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+.input-form{
+    color: #5b5b5b;
+    font-size: 12px;
+}
+.inputbox{
+    height: 30px;
+    width: 200px;
+    color: #5b5b5b;
+    padding-left: 5px;
+    font-family: verdana;
+}
+#textarea{
+    color: #5b5b5b;
+    width: 200px;
+    height: 100px;
+    padding-left: 5px;
+    font-family: verdana;
+}
+.button{
+    background: #09F;
+    border: none;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+/* enquiry page ends */
+
+
+      /* contact page's css starts */
+
+      .contact-content{
+        padding: 10px 30px 0px 30px;
+        height: 750px;
+        margin-bottom: 30px;
+        width: 800px;
+      }
+      /* contact row  */
+     .contact-row{
+          width: 750px;
+           height: 25px;
+           padding: 0px 25px 0px 25px;
+      }
+      /* contact row left */
+      .contact-row-left{
+        width: 320px;
+        height: 250px;
+        float: left;
+        text-align: center;
+        color: #343130;
+      }
+      .contact-row-left p{
+        margin-top: 10px;
+        font-size:17px ;
+      }
+       .contact-row-right{
+        width: 270px;
+        margin-left: 100px;
+        height: 250px;
+        float: right;
+        text-align: center;
+        color: #343130;
+       }
+       .contact-row-right p{
+        margin-top: 10px;
+        font-size: 17px;
+        word-spacing: 5px;
+       }
+       .clear{
+        clear: both;
+       }
+      
+      /* contact page's css end */
